@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load crispy_forms_tags %}
+{% block content %}
+<h1>{% blocktrans %}Add pressure record{% endblocktrans %}</h1>
+<form method="post" action="{% url 'bloodpressures:create' %}">
+{% csrf_token %}
+{{ form|crispy }}
+<button type="submit" class="btn btn-primary">{% blocktrans %}Create{% endblocktrans %}</button>
+</form>
+{% endblock %}

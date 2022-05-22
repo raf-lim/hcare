@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+  <table class="table table-stripped">
+    <thead>
+      <tr>
+        <th scope="col">{% blocktrans %}Date{% endblocktrans %}</th>
+        <th scope="col">{% blocktrans %}Glucose{% endblocktrans %}</th>
+      </tr>
+    </thead>
+      <tbody>
+       {% for obj in object_list %}
+        <tr>
+          <td><a href="{{ obj.get_absolute_url }}">{{ obj.recorded }}</a></td>
+          <td>{{ obj.glucose }}</td>
+        </tr>
+       {% endfor %}
+      </tbody>
+  </table>
+{% endblock %}
+

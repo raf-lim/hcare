@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load crispy_forms_tags %}
+{% block content %}
+<h1>{% blocktrans %}Add glucose record{% endblocktrans %}</h1>
+<form method="post" action="{% url 'glucoses:create' %}">
+{% csrf_token %}
+{{ form|crispy }}
+<button type="submit" class="btn btn-primary">{% blocktrans %}Add{% endblocktrans %}</button>
+</form>
+{% endblock %}

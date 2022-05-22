@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+  <table class="table table-stripped">
+    <thead>
+      <tr>
+        <th scope="col">{% blocktrans %}Date{% endblocktrans %}</th>
+        <th scope="col">{% blocktrans %}Systolic pressure{% endblocktrans %}</th>
+        <th scope="col">{% blocktrans %}Diastolic pressure{% endblocktrans %}</th>
+        <th scope="col">{% blocktrans %}Pulse{% endblocktrans %}</th>
+      </tr>
+    </thead>
+      <tbody>
+       {% for obj in object_list %}
+        <tr>
+          <td><a href="{% url 'bloodpressures:detail' obj.id %}">{{ obj.recorded }}</a></td>
+          <td>{{ obj.systolic }}</td>
+          <td>{{ obj.diastolic }}</td>
+          <td>{{ obj.pulse }}</td>
+        </tr>
+       {% endfor %}
+      </tbody>
+  </table>
+  <br>
+  <a href="{% url 'bloodpressures:create' %}" class="btn btn-success">{% blocktrans %}Add{% endblocktrans %}</a>
+
+{% endblock %}

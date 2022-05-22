@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+<h1>{{ object.recorded }}</h1>
+
+<table class="table">
+  <tr><th>{% blocktrans %}Date{% endblocktrans %}</th><td>{{ object.recorded }}</td></tr>
+  <tr><th>{% blocktrans %}Glucose{% endblocktrans %}</th><td>{{ object.glucose }}</td></tr>
+  <tr><th>{% blocktrans %}Notes{% endblocktrans %}</th><td>{{ object.notes }}</td></tr>
+</table>
+{% endblock %}
