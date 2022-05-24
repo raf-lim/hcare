@@ -7,7 +7,6 @@ ipdb  # https://github.com/gotcha/ipdb
 # Testing
 # ------------------------------------------------------------------------------
 mypy # https://github.com/python/mypy
-# mypy >0.770 and <0.780 is required by django-stubs==1.5.0
 django-stubs  # https://github.com/typeddjango/django-stubs
 pytest # https://github.com/pytest-dev/pytest
 pytest-sugar  # https://github.com/Frozenball/pytest-sugar

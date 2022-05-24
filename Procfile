@@ -1,5 +1,3 @@
-# web: gunicorn hcare.config.wsgi
-
 release: python manage.py migrate
 {%- if cookiecutter.use_async == "y" %}
 web: gunicorn config.asgi:application -k uvicorn.workers.UvicornWorker
