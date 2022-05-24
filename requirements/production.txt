@@ -8,6 +8,7 @@ Collectfast  # https://github.com/antonagestam/collectfast
 django-anymail[mailgun]
 django-redis  # https://github.com/jazzband/django-redis
 
+django-debug-toolbar
 
 # Genuine versions
 # ----------------------------------------------------------
