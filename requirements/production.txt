@@ -9,6 +9,7 @@ django-anymail[mailgun]
 django-redis  # https://github.com/jazzband/django-redis
 
 django-debug-toolbar
+django-extensions
 
 # Genuine versions
 # ----------------------------------------------------------
