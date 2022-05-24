@@ -33,9 +33,9 @@ pytest-django  # https://github.com/pytest-dev/pytest-django
 
 # Genuine versions
 # ---------------------
-Werkzeug==1.0.1 # https://github.com/pallets/werkzeug
-ipdb==0.13.3  # https://github.com/gotcha/ipdb
-psycopg2
+# Werkzeug==1.0.1 # https://github.com/pallets/werkzeug
+# ipdb==0.13.3  # https://github.com/gotcha/ipdb
+# psycopg2
 
 
 # Testing
