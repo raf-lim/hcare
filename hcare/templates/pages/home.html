@@ -6,18 +6,21 @@
     <ul>
         <a href="{% url 'bloodpressures:list' %}"
            class="btn btn-danger">
-          {% blocktrans %}Blood pressures{% endblocktrans %}
+          {% trans "Blood pressures" %}
         </a>
         <a href="{% url 'glucoses:list' %}"
            class="btn btn-primary">
-          {% blocktrans %}Glucoses{% endblocktrans %}
+          {% trans "Glucoses" %}
         </a>
     </ul>
   {% else %}
     <div>
-      <p>Welcome to my first app online.</p>
-      <p>Please <a href="{% url 'account_login' %}">sign in</a> to use the application!</p>
-      <p>Weryfikacja email jest wyłączona więc można wpisać dowolny fejkowy adres email</p>
+      <p>{% trans "Welcome to my first app online." %}</p>
+      <p>
+        {% trans "To use the app please" %}
+        <a href="{% url 'account_login' %}">{% trans "sign in" %}</a>
+      </p>
+      <p>{% trans "Weryfikacja email jest wyłączona więc można wpisać dowolny fejkowy adres email." %}</p>
     </div>
   {% endif %}
 {% endblock %}

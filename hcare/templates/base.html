@@ -1,4 +1,6 @@
-{% load static i18n %}<!DOCTYPE html>
+{% load static i18n %}
+
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -45,10 +47,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link"
+                 href="{% url 'home' %}">{% trans "Home" %} <span class="sr-only">(current)</span>
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{% url 'about' %}">About</a>
+              <a class="nav-link" href="{% url 'about' %}">{% trans "About" %}</a>
             </li>
             {% if request.user.is_authenticated %}
               <li class="nav-item active">
@@ -96,7 +100,7 @@
       {% endif %}
 
       {% block content %}
-        <p>Personal health trucker This text is inherited on other pages!</p>
+        <p>{% trans "Personal health trucker This text is inherited on other pages!" %}</p>
       {% endblock content %}
 
     </div> <!-- /container -->
