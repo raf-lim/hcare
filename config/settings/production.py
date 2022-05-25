@@ -125,6 +125,10 @@ EMAIL_BACKEND = "anymail.backends.mailgun.EmailBackend"
 #     ),
 # }
 
+ACCOUNT_EMAIL_VERIFICATION = env(
+    "DJANGO_ACCOUNT_EMAIL_VERIFICATION",
+    default="none",
+)
 
 # Collectfast
 # ------------------------------------------------------------------------------
