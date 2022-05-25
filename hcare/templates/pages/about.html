@@ -3,15 +3,15 @@
 {% block content %}
   {% if user.is_authenticated %}
     <div>
-      <p>{% blocktrans %}That was a great journey with pywww! Pleasure to get to this point.{% endblocktrans %}</p>
-      <p><a href="https://github.com/raf-lim/hcare">{% blocktrans %}Link to github repository{% endblocktrans %}</a></p>
-      <p>{% blocktrans %}Time for pycamp now. See you there.{% endblocktrans %}</p>
+      <p>{% trans "That was a great journey with pywww! Pleasure to get to this point." %}</p>
+      <p><a href="https://github.com/raf-lim/hcare">{% trans "Link to github repository" %}</a></p>
+      <p>{% trans "Time for pycamp now. See you there." %}</p>
     </div>
   {% else %}
     <div>
-      <p>{% blocktrans %}That was a great journey with pywww! Pleasure to get to this point.{% endblocktrans %}</p>
-      <p>{% blocktrans %}Once signed in you can check the github link.{% endblocktrans %}</p>
-      <p>{% blocktrans %}Time for pycamp now. See you there.{% endblocktrans %}</p>
+      <p>{% trans "That was a great journey with pywww! Pleasure to get to this point." %}</p>
+      <p>{% trans "Once signed in you can check the github link." %}</p>
+      <p>{% trans "Time for pycamp now. See you there." %}</p>
     </div>
   {% endif %}
 {% endblock %}

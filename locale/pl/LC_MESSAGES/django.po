@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-25 22:19+0200\n"
+"POT-Creation-Date: 2022-05-25 23:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -116,7 +116,7 @@ msgstr ""
 
 #: .\hcare\templates\account\login.html:7
 #: .\hcare\templates\account\login.html:11
-#: .\hcare\templates\account\login.html:44 .\hcare\templates\base.html:85
+#: .\hcare\templates\account\login.html:44 .\hcare\templates\base.html:83
 msgid "Sign In"
 msgstr "Zaloguj się"
 
@@ -152,7 +152,7 @@ msgstr "Zapomniałeś hasła?"
 
 #: .\hcare\templates\account\logout.html:5
 #: .\hcare\templates\account\logout.html:8
-#: .\hcare\templates\account\logout.html:17 .\hcare\templates\base.html:76
+#: .\hcare\templates\account\logout.html:17 .\hcare\templates\base.html:74
 msgid "Sign Out"
 msgstr "Wyloguj się"
 
@@ -233,7 +233,7 @@ msgid "Signup"
 msgstr "Rejestracja"
 
 #: .\hcare\templates\account\signup.html:9
-#: .\hcare\templates\account\signup.html:19 .\hcare\templates\base.html:81
+#: .\hcare\templates\account\signup.html:19 .\hcare\templates\base.html:79
 msgid "Sign Up"
 msgstr "Zarejestruj się"
 
@@ -287,27 +287,27 @@ msgid ""
 "mail address</a>."
 msgstr ""
 
-#: .\hcare\templates\base.html:51
+#: .\hcare\templates\base.html:49
 msgid "Home"
-msgstr ""
+msgstr "Strona główna"
 
-#: .\hcare\templates\base.html:55
+#: .\hcare\templates\base.html:53
 msgid "About"
 msgstr "Informacje"
 
-#: .\hcare\templates\base.html:60 .\hcare\templates\pages\home.html:9
+#: .\hcare\templates\base.html:58 .\hcare\templates\pages\home.html:9
 msgid "Blood pressures"
 msgstr "Ciśnienie krwi"
 
-#: .\hcare\templates\base.html:65 .\hcare\templates\pages\home.html:13
+#: .\hcare\templates\base.html:63 .\hcare\templates\pages\home.html:13
 msgid "Glucoses"
 msgstr "Cukier"
 
-#: .\hcare\templates\base.html:71
+#: .\hcare\templates\base.html:69
 msgid "My Profile"
 msgstr "Mój profil"
 
-#: .\hcare\templates\base.html:103
+#: .\hcare\templates\base.html:101
 msgid "Personal health trucker This text is inherited on other pages!"
 msgstr "Osobisty health trucker. Ten tekst jest dziedziczony na innych stonach"
 
