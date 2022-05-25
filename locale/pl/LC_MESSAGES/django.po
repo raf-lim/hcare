@@ -116,7 +116,7 @@ msgstr ""
 
 #: .\hcare\templates\account\login.html:7
 #: .\hcare\templates\account\login.html:11
-#: .\hcare\templates\account\login.html:44 .\hcare\templates\base.html:83
+#: .\hcare\templates\account\login.html:44 .\hcare\templates\base.html:85
 msgid "Sign In"
 msgstr "Zaloguj się"
 
@@ -152,7 +152,7 @@ msgstr "Zapomniałeś hasła?"
 
 #: .\hcare\templates\account\logout.html:5
 #: .\hcare\templates\account\logout.html:8
-#: .\hcare\templates\account\logout.html:17 .\hcare\templates\base.html:74
+#: .\hcare\templates\account\logout.html:17 .\hcare\templates\base.html:76
 msgid "Sign Out"
 msgstr "Wyloguj się"
 
@@ -233,7 +233,7 @@ msgid "Signup"
 msgstr "Rejestracja"
 
 #: .\hcare\templates\account\signup.html:9
-#: .\hcare\templates\account\signup.html:19 .\hcare\templates\base.html:79
+#: .\hcare\templates\account\signup.html:19 .\hcare\templates\base.html:81
 msgid "Sign Up"
 msgstr "Zarejestruj się"
 
@@ -287,27 +287,27 @@ msgid ""
 "mail address</a>."
 msgstr ""
 
-#: .\hcare\templates\base.html:49
+#: .\hcare\templates\base.html:51
 msgid "Home"
-msgstr "Strona główna"
+msgstr ""
 
-#: .\hcare\templates\base.html:53
+#: .\hcare\templates\base.html:55
 msgid "About"
 msgstr "Informacje"
 
-#: .\hcare\templates\base.html:58 .\hcare\templates\pages\home.html:9
+#: .\hcare\templates\base.html:60 .\hcare\templates\pages\home.html:9
 msgid "Blood pressures"
 msgstr "Ciśnienie krwi"
 
-#: .\hcare\templates\base.html:63 .\hcare\templates\pages\home.html:13
+#: .\hcare\templates\base.html:65 .\hcare\templates\pages\home.html:13
 msgid "Glucoses"
 msgstr "Cukier"
 
-#: .\hcare\templates\base.html:69
+#: .\hcare\templates\base.html:71
 msgid "My Profile"
 msgstr "Mój profil"
 
-#: .\hcare\templates\base.html:101
+#: .\hcare\templates\base.html:103
 msgid "Personal health trucker This text is inherited on other pages!"
 msgstr "Osobisty health trucker. Ten tekst jest dziedziczony na innych stonach"
 
