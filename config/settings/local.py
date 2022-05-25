@@ -31,6 +31,11 @@ EMAIL_BACKEND = env(
     default="django.core.mail.backends.console.EmailBackend",
 )
 
+ACCOUNT_EMAIL_VERIFICATION = env(
+    "DJANGO_ACCOUNT_EMAIL_VERIFICATION",
+    default="none",
+)
+
 # WhiteNoise
 # ------------------------------------------------------------------------------
 # http://whitenoise.evans.io/en/latest/django.html#using-whitenoise-in-development

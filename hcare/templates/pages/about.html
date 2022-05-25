@@ -1,1 +1,16 @@
 {% extends "base.html" %}
+{% block content %}
+  {% if user.is_authenticated %}
+    <div>
+      <p>That was a great journey with pywww! Pleasure to get to this point.</p>
+      <p><a href="https://github.com/raf-lim/hcare">Link to github repository</a></p>
+      <p>Time for pycamp now. See you there.</p>
+    </div>
+  {% else %}
+    <div>
+      <p>That was a great journey with pywww! Pleasure to get to this point.</p>
+      <p>Once signed in you can check the github link.</p>
+      <p>Time for pycamp now. See you there.</p>
+    </div>
+  {% endif %}
+{% endblock %}

@@ -3,12 +3,26 @@
 {% block content %}
 <h1>{{ object.recorded }}</h1>
   <table class="table table-condensed align-left">
-    <tr><th>{% blocktrans %}Systolic pressure{% endblocktrans %}</th><td>{{ object.systolic }}</td></tr>
-    <tr><th>{% blocktrans %}Diastolic pressure{% endblocktrans %}</th><td>{{ object.diastolic }}</td></tr>
-    <tr><th>{% blocktrans %}Pulse{% endblocktrans %}</th><td>{{ object.pulse }}</td></tr>
-    <tr><th>{% blocktrans %}Notes{% endblocktrans %}</th><td>{{ object.notes }}</td></tr>
+    <tr>
+      <th>{% blocktrans %}Systolic pressure{% endblocktrans %}</th>
+      <td>{{ object.systolic }}</td></tr>
+    <tr>
+      <th>{% blocktrans %}Diastolic pressure{% endblocktrans %}</th>
+      <td>{{ object.diastolic }}</td></tr>
+    <tr>
+      <th>{% blocktrans %}Pulse{% endblocktrans %}</th>
+      <td>{{ object.pulse }}</td></tr>
+    <tr>
+      <th>{% blocktrans %}Notes{% endblocktrans %}</th>
+      <td>{{ object.notes }}</td></tr>
   </table>
   <br>
-  <a href="{% url 'bloodpressures:update' object.id %}" class="btn btn-primary">{% blocktrans %}Update{% endblocktrans %}</a>
-  <a href="{% url 'bloodpressures:delete' object.id %}" class="btn btn-danger">{% blocktrans %}Delete{% endblocktrans %}</a>
+  <a href="{% url 'bloodpressures:update' object.id %}"
+     class="btn btn-success">{% blocktrans %}Update{% endblocktrans %}</a>
+  <a href="{% url 'bloodpressures:delete' object.id %}"
+     class="btn btn-danger">{% blocktrans %}Delete{% endblocktrans %}</a>
+  <br><br>
+  <a href="{% url 'bloodpressures:list' %}" class="btn btn-outline-secondary">
+    {% blocktrans %}Retrun to list{% endblocktrans %}
+  </a>
 {% endblock %}

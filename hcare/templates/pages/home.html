@@ -1,1 +1,23 @@
 {% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+  {% if request.user.is_authenticated %}
+    <br>
+    <ul>
+        <a href="{% url 'bloodpressures:list' %}"
+           class="btn btn-danger">
+          {% blocktrans %}Blood pressures{% endblocktrans %}
+        </a>
+        <a href="{% url 'glucoses:list' %}"
+           class="btn btn-primary">
+          {% blocktrans %}Glucoses{% endblocktrans %}
+        </a>
+    </ul>
+  {% else %}
+    <div>
+      <p>Welcome to my first app online.</p>
+      <p>Please <a href="{% url 'account_login' %}">sign in</a> to use the application!</p>
+    </div>
+  {% endif %}
+{% endblock %}
+
