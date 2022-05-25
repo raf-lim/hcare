@@ -15,7 +15,7 @@
     </ul>
   {% else %}
     <div>
-      <p>{% trans "Welcome to my first app online." %}</p>
+      <p>{% blocktrans %}Welcome to my first app online.{% endblocktrans %}</p>
       <p>
         {% trans "To use the app please" %}
         <a href="{% url 'account_login' %}">{% trans "sign in" %}</a>

@@ -57,7 +57,7 @@
             {% if request.user.is_authenticated %}
               <li class="nav-item active">
                 <a class="nav-link" href="{% url 'bloodpressures:list' %}">
-                  {% trans "Blood pressures" %}
+                  {% blocktrans %}Blood pressures{% endblocktrans %}
                 </a>
               </li>
               <li class="nav-item active">
