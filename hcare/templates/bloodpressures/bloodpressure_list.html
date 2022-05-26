@@ -4,10 +4,10 @@
   <table class="table table-stripped">
     <thead>
       <tr>
-        <th scope="col">{% blocktrans %}Date{% endblocktrans %}</th>
-        <th scope="col">{% blocktrans %}Systolic pressure{% endblocktrans %}</th>
-        <th scope="col">{% blocktrans %}Diastolic pressure{% endblocktrans %}</th>
-        <th scope="col">{% blocktrans %}Pulse{% endblocktrans %}</th>
+        <th scope="col">{% trans "Date" %}</th>
+        <th scope="col">{% trans "Systolic pressure" %}</th>
+        <th scope="col">{% trans "Diastolic pressure" %}</th>
+        <th scope="col">{% trans "Pulse" %}</th>
       </tr>
     </thead>
       <tbody>
@@ -22,6 +22,5 @@
       </tbody>
   </table>
   <br>
-  <a href="{% url 'bloodpressures:create' %}" class="btn btn-success">{% blocktrans %}Add{% endblocktrans %}</a>
-
+  <a href="{% url 'bloodpressures:create' %}" class="btn btn-success">{% translate "Add" %}</a>
 {% endblock %}

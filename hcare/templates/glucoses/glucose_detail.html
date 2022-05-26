@@ -4,21 +4,21 @@
   <h1>{{ object.recorded }}</h1>
   <table class="table">
     <tr>
-      <th>{% blocktrans %}Date{% endblocktrans %}</th>
+      <th>{% trans "Date" %}</th>
       <td>{{ object.recorded }}</td></tr>
     <tr>
-      <th>{% blocktrans %}Glucose{% endblocktrans %}</th>
+      <th>{% trans "Glucose" %}</th>
       <td>{{ object.glucose }}</td></tr>
     <tr>
-      <th>{% blocktrans %}Notes{% endblocktrans %}</th>
+      <th>{% trans "Notes" %}</th>
       <td>{{ object.notes }}</td></tr>
   </table>
   <a href="{% url 'glucoses:update' object.id %}"
-     class="btn btn-success">{% blocktrans %}Update{% endblocktrans %}</a>
+     class="btn btn-success">{% trans "Update" %}</a>
   <a href="{% url 'glucoses:delete' object.id %}"
-     class="btn btn-danger">{% blocktrans %}Delete{% endblocktrans %}</a>
+     class="btn btn-danger">{% trans "Delete" %}</a>
   <br><br>
   <a href="{% url 'glucoses:list' %}" class="btn btn-outline-secondary">
-    {% blocktrans %}Retrun to list{% endblocktrans %}
+    {% trans "Retrun to list" %}
   </a>
 {% endblock %}

@@ -4,8 +4,8 @@
   <table class="table table-stripped">
     <thead>
       <tr>
-        <th scope="col">{% blocktrans %}Date{% endblocktrans %}</th>
-        <th scope="col">{% blocktrans %}Glucose{% endblocktrans %}</th>
+        <th scope="col">{% trans "Date" %}</th>
+        <th scope="col">{% trans "Glucose" %}</th>
       </tr>
     </thead>
       <tbody>
@@ -19,7 +19,7 @@
   </table>
   <a href="{% url 'glucoses:create' %}"
      class="btn btn-success">
-    {% blocktrans %}Add{% endblocktrans %}
+    {% trans "Add" %}
   </a>
 {% endblock %}
 

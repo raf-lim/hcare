@@ -2,10 +2,10 @@
 {% load i18n %}
 {% load crispy_forms_tags %}
 {% block content %}
-<h1>{% blocktrans %}Update pressure record{% endblocktrans %}</h1>
+<h1>{% trans "Update" %}</h1>
 <form method="post" action="{% url 'bloodpressures:update' object.id %}">
 {% csrf_token %}
 {{ form|crispy }}
-<button type="submit" class="btn btn-primary">{% blocktrans %}Update{% endblocktrans %}</button>
+<button type="submit" class="btn btn-primary">{% trans "Update" %}</button>
 </form>
 {% endblock %}

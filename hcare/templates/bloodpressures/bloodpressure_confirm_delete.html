@@ -5,6 +5,6 @@
   {% csrf_token %}
   <p>{% blocktrans %}Do you want to permanently delete "{{ object }}" ?{% endblocktrans %}</p>
   {{ form }}
-  <button type="submit" class="btn btn-danger">{% blocktrans %}Delete{% endblocktrans %}</button>
+  <button type="submit" class="btn btn-danger">{% trans "Delete" %}</button>
 </form>
 {% endblock %}

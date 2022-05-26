@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-26 00:32+0200\n"
+"POT-Creation-Date: 2022-05-26 15:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,74 +23,74 @@ msgstr ""
 #: .\hcare\templates\account\account_inactive.html:5
 #: .\hcare\templates\account\account_inactive.html:8
 msgid "Account Inactive"
-msgstr ""
+msgstr "Konto nieaktywne"
 
 #: .\hcare\templates\account\account_inactive.html:10
 msgid "This account is inactive."
-msgstr ""
+msgstr "To konto jest nieaktywne"
 
 #: .\hcare\templates\account\email.html:7
 msgid "Account"
-msgstr ""
+msgstr "Konto"
 
 #: .\hcare\templates\account\email.html:10
 msgid "E-mail Addresses"
-msgstr ""
+msgstr "Adresy E-mail"
 
 #: .\hcare\templates\account\email.html:13
 msgid "The following e-mail addresses are associated with your account:"
 msgstr ""
 
-#: .\hcare\templates\account\email.html:27
-msgid "Verified"
-msgstr ""
-
-#: .\hcare\templates\account\email.html:29
-msgid "Unverified"
-msgstr ""
-
 #: .\hcare\templates\account\email.html:31
+msgid "Verified"
+msgstr "Zweryfikowany"
+
+#: .\hcare\templates\account\email.html:33
+msgid "Unverified"
+msgstr "Niezweryfikowany"
+
+#: .\hcare\templates\account\email.html:35
 msgid "Primary"
-msgstr ""
+msgstr "Podstawowy"
 
-#: .\hcare\templates\account\email.html:37
+#: .\hcare\templates\account\email.html:41
 msgid "Make Primary"
-msgstr ""
+msgstr "Ustaw jako podstawowy"
 
-#: .\hcare\templates\account\email.html:38
+#: .\hcare\templates\account\email.html:42
 msgid "Re-send Verification"
-msgstr ""
+msgstr "Prześle weryfikację ponownie"
 
-#: .\hcare\templates\account\email.html:39
+#: .\hcare\templates\account\email.html:43
 msgid "Remove"
-msgstr ""
+msgstr "Usuń"
 
-#: .\hcare\templates\account\email.html:46
+#: .\hcare\templates\account\email.html:50
 msgid "Warning:"
-msgstr ""
+msgstr "Ostrzeżenie"
 
-#: .\hcare\templates\account\email.html:46
+#: .\hcare\templates\account\email.html:50
 msgid ""
 "You currently do not have any e-mail address set up. You should really add "
 "an e-mail address so you can receive notifications, reset your password, etc."
 msgstr ""
 
-#: .\hcare\templates\account\email.html:51
+#: .\hcare\templates\account\email.html:55
 msgid "Add E-mail Address"
-msgstr ""
+msgstr "Dodaj adres E-mail"
 
-#: .\hcare\templates\account\email.html:56
+#: .\hcare\templates\account\email.html:60
 msgid "Add E-mail"
-msgstr ""
+msgstr "Dodaj E-mail"
 
-#: .\hcare\templates\account\email.html:66
+#: .\hcare\templates\account\email.html:70
 msgid "Do you really want to remove the selected e-mail address?"
 msgstr ""
 
 #: .\hcare\templates\account\email_confirm.html:6
 #: .\hcare\templates\account\email_confirm.html:10
 msgid "Confirm E-mail Address"
-msgstr ""
+msgstr "Potwierdź adres E-mail"
 
 #: .\hcare\templates\account\email_confirm.html:16
 #, python-format
@@ -101,7 +101,7 @@ msgstr ""
 
 #: .\hcare\templates\account\email_confirm.html:20
 msgid "Confirm"
-msgstr ""
+msgstr "Potwierdź"
 
 #: .\hcare\templates\account\email_confirm.html:27
 #, python-format
@@ -114,7 +114,7 @@ msgstr ""
 #: .\hcare\templates\account\login.html:11
 #: .\hcare\templates\account\login.html:44 .\hcare\templates\base.html:85
 msgid "Sign In"
-msgstr ""
+msgstr "Zaloguj się"
 
 #: .\hcare\templates\account\login.html:16
 #, python-format
@@ -127,7 +127,7 @@ msgstr ""
 
 #: .\hcare\templates\account\login.html:26
 msgid "or"
-msgstr ""
+msgstr "lub"
 
 #: .\hcare\templates\account\login.html:33
 #, python-format
@@ -138,17 +138,17 @@ msgstr ""
 
 #: .\hcare\templates\account\login.html:43
 msgid "Forgot Password?"
-msgstr ""
+msgstr "Nie pamiętasz hasła?"
 
 #: .\hcare\templates\account\logout.html:5
 #: .\hcare\templates\account\logout.html:8
 #: .\hcare\templates\account\logout.html:17 .\hcare\templates\base.html:76
 msgid "Sign Out"
-msgstr ""
+msgstr "Wyloguj się"
 
 #: .\hcare\templates\account\logout.html:10
 msgid "Are you sure you want to sign out?"
-msgstr ""
+msgstr "Czy na pewno chcesz się wylogować?"
 
 #: .\hcare\templates\account\password_change.html:6
 #: .\hcare\templates\account\password_change.html:9
@@ -158,14 +158,14 @@ msgstr ""
 #: .\hcare\templates\account\password_reset_from_key_done.html:4
 #: .\hcare\templates\account\password_reset_from_key_done.html:7
 msgid "Change Password"
-msgstr ""
+msgstr "Zmień hasło"
 
 #: .\hcare\templates\account\password_reset.html:7
 #: .\hcare\templates\account\password_reset.html:11
 #: .\hcare\templates\account\password_reset_done.html:6
 #: .\hcare\templates\account\password_reset_done.html:9
 msgid "Password Reset"
-msgstr ""
+msgstr "Reset hasła"
 
 #: .\hcare\templates\account\password_reset.html:16
 msgid ""
@@ -175,7 +175,7 @@ msgstr ""
 
 #: .\hcare\templates\account\password_reset.html:21
 msgid "Reset My Password"
-msgstr ""
+msgstr "Zresetuj hasło"
 
 #: .\hcare\templates\account\password_reset.html:24
 msgid "Please contact us if you have any trouble resetting your password."
@@ -189,7 +189,7 @@ msgstr ""
 
 #: .\hcare\templates\account\password_reset_from_key.html:8
 msgid "Bad Token"
-msgstr ""
+msgstr "Niepoprawny token"
 
 #: .\hcare\templates\account\password_reset_from_key.html:12
 #, python-format
@@ -201,27 +201,27 @@ msgstr ""
 
 #: .\hcare\templates\account\password_reset_from_key.html:18
 msgid "change password"
-msgstr ""
+msgstr "zmień hasło"
 
 #: .\hcare\templates\account\password_reset_from_key.html:21
 #: .\hcare\templates\account\password_reset_from_key_done.html:8
 msgid "Your password is now changed."
-msgstr ""
+msgstr "Twoje hasło zostało zmienione"
 
 #: .\hcare\templates\account\password_set.html:6
 #: .\hcare\templates\account\password_set.html:9
 #: .\hcare\templates\account\password_set.html:14
 msgid "Set Password"
-msgstr ""
+msgstr "Ustaw hasło"
 
 #: .\hcare\templates\account\signup.html:6
 msgid "Signup"
-msgstr ""
+msgstr "Rejestracja"
 
 #: .\hcare\templates\account\signup.html:9
 #: .\hcare\templates\account\signup.html:19 .\hcare\templates\base.html:81
 msgid "Sign Up"
-msgstr ""
+msgstr "Zarejestruj"
 
 #: .\hcare\templates\account\signup.html:11
 #, python-format
@@ -283,41 +283,41 @@ msgstr "Informacje"
 
 #: .\hcare\templates\base.html:60 .\hcare\templates\pages\home.html:9
 msgid "Blood pressures"
-msgstr "Ciśnienie krwi"
+msgstr "Ciśnienie"
 
 #: .\hcare\templates\base.html:65 .\hcare\templates\pages\home.html:13
 msgid "Glucoses"
-msgstr ""
+msgstr "Cukier"
 
 #: .\hcare\templates\base.html:71
 msgid "My Profile"
 msgstr "Mój profil"
 
-#: .\hcare\templates\base.html:103
-msgid "Personal health trucker This text is inherited on other pages!"
-msgstr ""
+#: .\hcare\templates\base.html:107
+msgid "Personal health trucker. This text is inherited on other pages!"
+msgstr "Personal health trucker. Ten tekst jest dziedziczony również przez inne strony!"
 
 #: .\hcare\templates\bloodpressures\bloodpressure_confirm_delete.html:6
 #, python-format
 msgid "Do you want to permanently delete \"%(object)s\" ?"
-msgstr ""
+msgstr "Czy chcesz trwale usunąć \"%(object)s\" ?"
 
 #: .\hcare\templates\bloodpressures\bloodpressure_confirm_delete.html:8
 #: .\hcare\templates\bloodpressures\bloodpressure_detail.html:23
 #: .\hcare\templates\glucoses\glucose_confirm_delete.html:8
 #: .\hcare\templates\glucoses\glucose_detail.html:19
 msgid "Delete"
-msgstr ""
+msgstr "Usuń"
 
 #: .\hcare\templates\bloodpressures\bloodpressure_detail.html:7
 #: .\hcare\templates\bloodpressures\bloodpressure_list.html:8
 msgid "Systolic pressure"
-msgstr ""
+msgstr "Ciśnienie skurczowe"
 
 #: .\hcare\templates\bloodpressures\bloodpressure_detail.html:10
 #: .\hcare\templates\bloodpressures\bloodpressure_list.html:9
 msgid "Diastolic pressure"
-msgstr "Ciśnienie skurczowe"
+msgstr "Ciśnienie rozkurczowe"
 
 #: .\hcare\templates\bloodpressures\bloodpressure_detail.html:13
 #: .\hcare\templates\bloodpressures\bloodpressure_list.html:10
@@ -327,49 +327,46 @@ msgstr "Tętno"
 #: .\hcare\templates\bloodpressures\bloodpressure_detail.html:16
 #: .\hcare\templates\glucoses\glucose_detail.html:13
 msgid "Notes"
-msgstr ""
+msgstr "Notatki"
 
 #: .\hcare\templates\bloodpressures\bloodpressure_detail.html:21
+#: .\hcare\templates\bloodpressures\bloodpressure_update_form.html:5
 #: .\hcare\templates\bloodpressures\bloodpressure_update_form.html:9
 #: .\hcare\templates\glucoses\glucose_detail.html:17
 #: .\hcare\templates\glucoses\glucose_update_form.html:9
 #: .\hcare\templates\users\user_form.html:15
 msgid "Update"
-msgstr ""
+msgstr "Zaktualizuj"
 
 #: .\hcare\templates\bloodpressures\bloodpressure_detail.html:26
 #: .\hcare\templates\glucoses\glucose_detail.html:22
 msgid "Retrun to list"
-msgstr ""
+msgstr "Powrót do listy"
 
 #: .\hcare\templates\bloodpressures\bloodpressure_form.html:5
 msgid "Add pressure record"
-msgstr ""
+msgstr "Dodaj pomiar"
 
 #: .\hcare\templates\bloodpressures\bloodpressure_form.html:9
 msgid "Create"
-msgstr ""
+msgstr "Utwórz"
 
 #: .\hcare\templates\bloodpressures\bloodpressure_list.html:7
 #: .\hcare\templates\glucoses\glucose_detail.html:7
 #: .\hcare\templates\glucoses\glucose_list.html:7
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 #: .\hcare\templates\bloodpressures\bloodpressure_list.html:25
 #: .\hcare\templates\glucoses\glucose_form.html:9
 #: .\hcare\templates\glucoses\glucose_list.html:22
 msgid "Add"
-msgstr ""
-
-#: .\hcare\templates\bloodpressures\bloodpressure_update_form.html:5
-msgid "Update pressure record"
-msgstr ""
+msgstr "Dodaj"
 
 #: .\hcare\templates\glucoses\glucose_confirm_delete.html:6
 #, python-format
 msgid "Do you want to permanently delete \"%(object)s\"?"
-msgstr ""
+msgstr "Czy chcesz trwale usunąć \"%(object)s\"?"
 
 #: .\hcare\templates\glucoses\glucose_detail.html:10
 #: .\hcare\templates\glucoses\glucose_list.html:8
@@ -378,11 +375,11 @@ msgstr "Cukier"
 
 #: .\hcare\templates\glucoses\glucose_form.html:5
 msgid "Add glucose record"
-msgstr ""
+msgstr "Dodaj pomiar"
 
 #: .\hcare\templates\glucoses\glucose_update_form.html:5
 msgid "Update glucose record"
-msgstr ""
+msgstr "Zaktualizuj pomiar"
 
 #: .\hcare\templates\pages\about.html:6 .\hcare\templates\pages\about.html:12
 msgid "That was a great journey with pywww! Pleasure to get to this point."
@@ -390,27 +387,27 @@ msgstr ""
 
 #: .\hcare\templates\pages\about.html:7
 msgid "Link to github repository"
-msgstr "Link to repozytorium github"
+msgstr "Link to repo w github"
 
 #: .\hcare\templates\pages\about.html:8 .\hcare\templates\pages\about.html:14
 msgid "Time for pycamp now. See you there."
-msgstr ""
+msgstr "Teraz czas na pycamp. Do zobaczenia."
 
 #: .\hcare\templates\pages\about.html:13
 msgid "Once signed in you can check the github link."
-msgstr ""
+msgstr "Po zalogowaniu dostępny będzie link do repo w github"
 
 #: .\hcare\templates\pages\home.html:18
 msgid "Welcome to my first app online."
-msgstr ""
+msgstr "Moja pierwsza webowa apka online"
 
 #: .\hcare\templates\pages\home.html:20
 msgid "To use the app please"
-msgstr ""
+msgstr "Aby skorzystać z apki"
 
 #: .\hcare\templates\pages\home.html:21
 msgid "sign in"
-msgstr ""
+msgstr "zaloguj się"
 
 #: .\hcare\templates\pages\home.html:23
 msgid ""
@@ -420,20 +417,16 @@ msgstr ""
 
 #: .\hcare\templates\users\user_detail.html:26
 msgid "My Info"
-msgstr ""
-
-#: .\hcare\templates\users\user_detail.html:30
-msgid "E-Mail"
-msgstr ""
+msgstr "Moje info"
 
 #: .\hcare\users\apps.py:7
 msgid "Users"
-msgstr ""
+msgstr "Użytkownicy"
 
 #: .\hcare\users\forms.py:18
 msgid "This username has already been taken."
-msgstr ""
+msgstr "Ta nazwa użytkownika jest już zajęta."
 
 #: .\hcare\users\models.py:12
 msgid "Name of User"
-msgstr ""
+msgstr "Nazwa użytkownika"
