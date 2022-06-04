@@ -13,5 +13,5 @@ class BloodPressure(models.Model):
     def __str__(self):
         return f'record {self.id}'
 
-    # def get_absolute_url(self):
-    #     return reverse('bloodpressures:detail', kwargs={'pk': self.id})
+    def get_absolute_url(self):
+        return reverse('bloodpressures:detail', kwargs={'pk': self.id})

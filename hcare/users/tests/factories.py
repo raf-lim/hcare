@@ -25,9 +25,9 @@ class UserFactory(DjangoModelFactory):
                 digits=True,
                 upper_case=True,
                 lower_case=True,
-            ).generate(extra_kwargs={})
+            )#.generate(extra_kwargs={})
         )
-        self.set_password(password)
+        self.set_password(str(password))
 
     class Meta:
         model = get_user_model()

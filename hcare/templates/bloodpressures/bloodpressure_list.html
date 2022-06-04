@@ -13,7 +13,7 @@
       <tbody>
        {% for obj in object_list %}
         <tr>
-          <td><a href="{% url 'bloodpressures:detail' obj.id %}">{{ obj.recorded }}</a></td>
+          <td><a href="{{ obj.get_absolute_url }}">{{ obj.recorded }}</a></td>
           <td>{{ obj.systolic }}</td>
           <td>{{ obj.diastolic }}</td>
           <td>{{ obj.pulse }}</td>
