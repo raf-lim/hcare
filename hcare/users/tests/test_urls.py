@@ -1,6 +1,5 @@
 import pytest
 from django.urls import reverse, resolve
-
 from hcare.users.models import User
 
 pytestmark = pytest.mark.django_db
