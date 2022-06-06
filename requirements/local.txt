@@ -29,6 +29,9 @@ django-extensions  # https://github.com/django-extensions/django-extensions
 django-coverage-plugin  # https://github.com/nedbat/django_coverage_plugin
 pytest-django  # https://github.com/pytest-dev/pytest-django
 
+# Database
+psycopg2
+
 
 # Genuine versions
 # ---------------------
@@ -62,3 +65,6 @@ pytest-django  # https://github.com/pytest-dev/pytest-django
 # django-extensions==3.0.9  # https://github.com/django-extensions/django-extensions
 # django-coverage-plugin==1.8.0  # https://github.com/nedbat/django_coverage_plugin
 # pytest-django==3.10.0  # https://github.com/pytest-dev/pytest-django
+
+# ----
+
