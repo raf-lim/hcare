@@ -1,14 +1,12 @@
 import pytest
-from django.test import RequestFactory
+from django.test import RequestFactory, client
 from django.contrib.messages.middleware import MessageMiddleware
 from django.contrib.sessions.middleware import SessionMiddleware
 from django.urls import reverse
 
 from hcare.users.models import User
-from hcare.users.views import (
-    UserRedirectView,
-    UserUpdateView,
-)
+from hcare.users.views import (UserRedirectView, UserUpdateView)
+from .factories import UserFactory
 
 pytestmark = pytest.mark.django_db
 
@@ -77,3 +75,20 @@ class TestUserRedirectView:
         assert (
             view.get_redirect_url() == f"/users/{user.username}/"
         )
+
+
+class TestUserCounterView:
+    def test_context_without_one_user(self, user):
+        c = client.Client()
+        response = c.get(reverse('users:counter'))
+
+        assert 'users_counter' in response.context
+        assert response.context.get('users_counter') == 1
+
+    def test_context_with_2_users(self, user: User):
+        UserFactory()
+        c = client.Client()
+        response = c.get(reverse('users:counter'))
+
+        assert 'users_counter' in response.context
+        assert response.context.get('users_counter') == 2
